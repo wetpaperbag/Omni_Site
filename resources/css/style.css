@@ -244,12 +244,12 @@ header {
 /* MAIN NAVI*/
 /*--------------------------------------*/
 .main-nav {
-    float:right;
+    float: right;
     list-style: none;
     margin-top: 55px;
 }
 .main-nav li {
-    display:inline-block;
+    display: inline-block;
     margin-left: 40px;
 }
 .main-nav li a:link, 
@@ -267,6 +267,23 @@ header {
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
 }
+
+/*--------------------------------------*/
+/* MOBILE NAVI */
+/*--------------------------------------*/
+mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: #fff;
+}
+
+
 /*--------------------------------------*/
 /* STICKY NAVI */
 /*--------------------------------------*/
